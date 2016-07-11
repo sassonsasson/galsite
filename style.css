@@ -1,35 +1,49 @@
 body {
 	text-align: center;
-	background-image: url("http://i49.tinypic.com/bg8ait.jpg");
+	background-image: url("https://s31.postimg.org/u621314ej/GOPR0177.jpg");
 	background-size:  cover;
 	background-repeat: no-repeat;
 }
 
-li {
-	color: red;
-	font-size: 25px;
-	font-family: cursive;
-	
+nav li {
+  display: inline-block;
 
 }
 
+li a {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+a:hover { 
+  color: blue;
+}
+
+nav {
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 h1 {
-	background-image: url("https://s31.postimg.org/v58kttqp7/GOPR0178.jpg");
-	width: 250px;
-	height: 200px;
-	background-size: contain;
-	margin-left: auto;
-	margin-right: auto;
-	background-repeat: no-repeat;
-	font-family: cursive;
+	font-family: 'Bubblegum Sans', cursive;
+	text-decoration: none;
 	color: black;
-	
+	font-size: 50px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    margin-top: 150px;
 }
 
 p {
 	font-size: 25px;
-	font-family: cursive;
+	font-family: 'Bubblegum Sans', cursive;
 	text-decoration: none;
 	color: white;
-	background-color: lightblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }

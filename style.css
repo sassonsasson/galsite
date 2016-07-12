@@ -47,3 +47,38 @@ p {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+      .column {
+        float: left;
+        width: 33.3%;
+      }
+
+      .food img {
+        width: 150px;
+        display: cover;
+      }
+
+      .column-inner {
+       padding: 20px;
+      }

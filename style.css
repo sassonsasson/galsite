@@ -1,8 +1,10 @@
 body {
+  background-image: url("http://www.nasa.gov/sites/default/files/pia17679.jpg?itok=MYDz39Xd");
 	text-align: center;
-	background-image: url("https://s31.postimg.org/u621314ej/GOPR0177.jpg");
 	background-size:  cover;
+  width: 100%;
 	background-repeat: no-repeat;
+        background-color: grey;
 }
 
 nav li {
@@ -33,7 +35,7 @@ nav {
 h1 {
 	font-family: 'Bubblegum Sans', cursive;
 	text-decoration: none;
-	color: black;
+	color: red;
 	font-size: 50px;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     margin-top: 150px;
@@ -72,13 +74,33 @@ div.desc {
       .column {
         float: left;
         width: 33.3%;
+                
+
       }
 
-      .food img {
+      .projects {
+        display: block;
+
+
+      }
+
+      .projects img {
         width: 150px;
         display: cover;
+      
+    
       }
 
       .column-inner {
        padding: 20px;
+           
+      }
+
+      .intro {
+   
+        background-repeat: no-repeat;
+      }
+      
+      .contact {
+
       }
